@@ -283,6 +283,10 @@ background-color: var(--button-color);
   background-color: var(--hover-focus);
 }
 /* ===customers=== */
+
+.customers{
+  line-height: 1.1
+}
 .section-customers{
 padding-top: 120px;
 padding-bottom: 120px;
@@ -295,7 +299,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 border: 1px solid var(--icon-color);
-fill: var(--icon-color);
+fill: var(--svg-color);
 border-radius: 4px;
 }
 .list-customers{
@@ -349,6 +353,8 @@ border-color: var(--hover-focus);}
 .container-footer{
   display: flex;
   align-items: baseline;
+}
+.logo-footer{
   gap: 120px;
 }
 .footer-social-list{
