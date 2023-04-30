@@ -120,7 +120,6 @@ img {
 }
 /*==== hero==== */
 .hero { max-width: 1440px;
-  height: 600px;
   background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
   url(../images/people-office.jpg); 
   background-repeat: no-repeat;
@@ -129,6 +128,8 @@ img {
   background-color: var(--secondary-color);
   padding-top: 188px;
   padding-bottom: 188px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .hero-title {
   font-weight: 700;
@@ -353,8 +354,6 @@ border-color: var(--hover-focus);}
 .container-footer{
   display: flex;
   align-items: baseline;
-}
-.logo-footer{
   gap: 120px;
 }
 .footer-social-list{
